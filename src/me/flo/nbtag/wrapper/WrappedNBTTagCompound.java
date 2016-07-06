@@ -3,6 +3,7 @@ package me.flo.nbtag.wrapper;
 import me.flo.nbtag.api.NBTagBase;
 import me.flo.nbtag.api.NBTagCompound;
 import me.flo.nbtag.api.NBTagList;
+import me.flo.nbtag.api.NBTagObject;
 import me.flo.nbtag.reflection.NMSReflection;
 
 import java.util.HashMap;
@@ -40,6 +41,11 @@ public class WrappedNBTTagCompound extends AbstractNBTTag implements NBTagCompou
     @Override
     public NBTagCompound getCompound(String s) {
         return new WrappedNBTTagCompound(map.get(s));
+    }
+
+    @Override
+    public NBTagObject getObject(String s) {
+        return new WrappedNBTTagObject(map.get(s));
     }
 
     @Override

@@ -12,6 +12,7 @@ public interface NBTagList extends Iterable, Directaccessable<List<?>> {
     boolean isCompound(int i);
     NBTagCompound getCompound(int i);
     NBTagList getList(int i);
+    NBTagObject getObject(int i);
     void remove(int i);
     boolean isEmpty();
     int size();

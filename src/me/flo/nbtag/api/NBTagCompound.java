@@ -18,6 +18,8 @@ public interface NBTagCompound extends Directaccessable<Map<String, ?>> {
 
     NBTagCompound getCompound(String s);
 
+    NBTagObject getObject(String s);
+
     boolean containsKey(String s);
 
     NBTagList getList(String s);

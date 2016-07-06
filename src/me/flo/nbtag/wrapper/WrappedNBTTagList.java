@@ -2,6 +2,7 @@ package me.flo.nbtag.wrapper;
 
 import me.flo.nbtag.api.NBTagCompound;
 import me.flo.nbtag.api.NBTagList;
+import me.flo.nbtag.api.NBTagObject;
 import me.flo.nbtag.reflection.NMSReflection;
 
 import java.util.Iterator;
@@ -39,6 +40,11 @@ public class WrappedNBTTagList extends AbstractNBTTag implements NBTagList {
     @Override
     public NBTagList getList(int i) {
         return new WrappedNBTTagList(list.get(i));
+    }
+
+    @Override
+    public NBTagObject getObject(int i) {
+        return new WrappedNBTTagObject(list.get(i));
     }
 
     @Override
