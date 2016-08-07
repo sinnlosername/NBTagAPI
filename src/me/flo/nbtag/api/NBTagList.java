@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by Florian on 05.07.16 in me.flo.nbtag.api
  */
-public interface NBTagList extends Iterable, Directaccessable<List<?>> {
+public interface NBTagList extends Iterable, Directaccessable<List<?>>, NBTagBase {
     boolean isList(int i);
     boolean isCompound(int i);
     NBTagCompound getCompound(int i);

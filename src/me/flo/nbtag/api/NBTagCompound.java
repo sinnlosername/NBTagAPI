@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by Florian on 05.07.16 in me.flo.nbtag.api
  */
-public interface NBTagCompound extends Directaccessable<Map<String, ?>> {
+public interface NBTagCompound extends Directaccessable<Map<String, ?>>, NBTagBase {
 
     void add(String key, NBTagBase tag);
 

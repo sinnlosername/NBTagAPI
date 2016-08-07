@@ -4,7 +4,7 @@ package me.flo.nbtag.api;
  * Created by Florian on 05.07.16 in me.flo.nbtag.api
  */
 
-public interface NBTagObject {
+public interface NBTagObject extends NBTagBase {
     void set(Object value);
     Object asObject();
     String asString();
