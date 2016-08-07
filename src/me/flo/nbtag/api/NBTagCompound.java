@@ -1,7 +1,5 @@
 package me.flo.nbtag.api;
 
-import me.flo.nbtag.util.Directaccessable;
-
 import java.util.Map;
 import java.util.Set;
 

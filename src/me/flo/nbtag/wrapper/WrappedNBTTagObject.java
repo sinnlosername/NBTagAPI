@@ -14,7 +14,7 @@ public class WrappedNBTTagObject extends AbstractNBTTag implements NBTagObject {
             NMSReflection.getNMSClass("NBTTagString"),
             NMSReflection.getNMSClass("NBTTagByte"),
             NMSReflection.getNMSClass("NBTTagShort"),
-            NMSReflection.getNMSClass("NBTTagInteger"),
+            NMSReflection.getNMSClass("NBTTagInt"),
             NMSReflection.getNMSClass("NBTTagLong"),
             NMSReflection.getNMSClass("NBTTagDouble"),
             NMSReflection.getNMSClass("NBTTagFloat")
