@@ -10,7 +10,7 @@ Features:
 
 # Example
 
-```
+```Java
 // Get Tags
 NBTagCompound entityTag = NBTagUtil.getTag(myEntity);
 NBTagCompound itemTag = NBTagUtil.getTag(itemTag);
