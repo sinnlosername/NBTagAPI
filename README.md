@@ -3,9 +3,9 @@
 NBTag is a short NBT Tag API for Bukkit.
 
 Features:
-- Edit NBT Tags live (Reflections)
-- Very small
-- Get NBT Tags of Entity's & ItemStack's
+- Edit NBT Tags (using Reflection)
+- Lightweight
+- Get NBT Tags of Entities & ItemStacks
 
 
 # Example
